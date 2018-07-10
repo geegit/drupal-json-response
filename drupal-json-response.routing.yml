@@ -1,0 +1,17 @@
+drupal_json_response.admin_overview:
+  path: '/drupal_json_response/admin/aliases'
+  defaults:
+    _title: 'JSON Field aliases'
+    _controller: '\Drupal\drupal_json_response\Controller\ContentToJsonController::adminOverview'
+    keys: NULL
+  requirements:
+    _permission: 'administer site configuration'    
+drupal_json_response.query:
+  path: 'drupal_json_response/api/{contentType}/{contentName}'
+  defaults:
+    _controller: '\Drupal\drupal_json_response\Controller\ContentToJsonController::getLatestNodes'
+    contentType: 'cn_propmaster'
+    contentName: ''
+  methods: [GET]
+  requirements:
+    _access: 'TRUE'

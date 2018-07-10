@@ -1,0 +1,6 @@
+name: Drupal JSON Response Module
+description: Drupal 8 module to creates json response of any Drupal 8 content
+package: Custom
+type: module
+core: 8.x
+configure: drupal_json_response.admin_overview

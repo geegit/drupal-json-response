@@ -1,0 +1,23 @@
+<?php
+
+/** 
+ * @file
+ * Contains cn_game.module..
+ */ 
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drupal_json_response($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.drupal_json_response':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Converts Content To JSON Output') . '</p>';
+      return $output;
+
+    default:
+  }
+}

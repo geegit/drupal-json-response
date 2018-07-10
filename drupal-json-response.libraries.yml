@@ -1,0 +1,6 @@
+drupal_json_response:
+  version: 1.x
+  js:
+    js/drupal_json_response.js: {}
+  dependencies:
+    - core/jquery
