@@ -1,5 +1,5 @@
 {
-    "name": "drupal_json_response/drupal_json_response",
+    "name": "drupal_json_response",
     "version": "1.0",
     "dist": {
         "url": "https://github.com/geegit/drupal_json_response",
