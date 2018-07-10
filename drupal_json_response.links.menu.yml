@@ -2,5 +2,5 @@ drupal_json_response.admin:
   title: 'Drupal Json Response module settings'
   description: 'Settings for this module. Rename fields, Hide Fields, Debug SQL, etc'
   parent: system.admin_config_development
-  route_name: drupal_json_response.settings
+  route_name: drupal_json_response.admin_overview
   weight: 100
