@@ -4,3 +4,4 @@ package: Custom
 type: module
 core: 8.x
 configure: drupal_json_response.admin_overview
+version: 1.2

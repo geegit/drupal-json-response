@@ -1,6 +1,6 @@
 {
     "name": "drupal_json_response",
-    "version": "1.1",
+    "version": "1.2",
     "type":"drupal-custom-module",
     "dist": {
         "url": "https://github.com/geegit/drupal_json_response",
