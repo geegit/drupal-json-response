@@ -830,7 +830,7 @@ public function generateSQLPlan($contentTypeName,$nodeType,$parentEntityType,$pa
 
  public function decorate($src, &$output){
 
-    $noprint = ["field_game_p_controls_controlz"=>"1","nid"=>"1","path"=>"1","fforeignKeyId"=>"1","title"=>"1","entity_id"=>"1","revision_id"=>"1","deleted"=>"1","langcode"=>"1","delta"=>"1","bundle"=>"1"];
+    $noprint = ["field_game_p_controls_controlz"=>"1","nid"=>"1","path"=>"1","fforeignKeyId"=>"1","entity_id"=>"1","revision_id"=>"1","deleted"=>"1","langcode"=>"1","delta"=>"1","bundle"=>"1"];
   //var_dump($src);
 
     foreach($src as $k => $v){
